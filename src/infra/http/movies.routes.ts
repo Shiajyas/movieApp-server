@@ -13,3 +13,4 @@ router.post('/favorites', MoviesCtrl.addFavorite);
 router.delete('/favorites/:id', MoviesCtrl.removeFavorite);
 
 export default router;
+ 

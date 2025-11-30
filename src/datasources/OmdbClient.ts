@@ -19,4 +19,4 @@ export class OmdbClient {
     const res = await axios.get(this.base, { params: { apikey: OMDB_API_KEY, i: imdbID, plot: 'full' }});
     return res.data;
   }
-}
+} 

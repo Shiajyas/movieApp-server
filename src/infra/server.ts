@@ -5,7 +5,7 @@ import app from './http/app';
 import './container';
 
 async function start() {
-  await mongoose.connect(MONGO_URI);
+  // await mongoose.connect(MONGO_URI);
   console.log('MongoDB connected');
 
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
