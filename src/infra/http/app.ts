@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import "reflect-metadata";
 
 import authRoutes from './auth.routes';
 import movieRoutes from './movies.routes';

@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 import { PORT, MONGO_URI } from '../config/env';
 import app from './http/app';
 import './container';
+import "reflect-metadata";
+
 
 async function start() {
   // await mongoose.connect(MONGO_URI);
