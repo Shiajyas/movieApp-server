@@ -1,7 +1,7 @@
     import request from "supertest";
     import app from "../../infra/http/app";
     import { container } from "tsyringe";
-    import { IFavoritesRepository } from "../../repositories/IFavoritesRepository";
+    import { IFavoritesRepository } from "../../domain/repositories/IFavoritesRepository";
 
     const mockRepo: jest.Mocked<IFavoritesRepository> = {
     getPaginated: jest.fn(),

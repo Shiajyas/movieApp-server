@@ -1,6 +1,6 @@
 import "reflect-metadata";
 
-import { FileFavoritesRepository } from "../../repositories/FileFavoritesRepository";
+import { FileFavoritesRepository } from "../../domain/repositories/FileFavoritesRepository";
 import fs from "fs/promises";
 
 jest.mock("fs/promises");

@@ -1,7 +1,7 @@
 import "reflect-metadata";
-import { addFavorite, getFavorites, removeFavorite } from "../../controllers/MoviesController";
+import { addFavorite, getFavorites, removeFavorite } from "../../presentation/controllers/MoviesController";
 import { container } from "tsyringe";
-import { IFavoritesRepository } from "../../repositories/IFavoritesRepository";
+import { IFavoritesRepository } from "../../domain/repositories/IFavoritesRepository";
 
 
 const mockRepo: jest.Mocked<IFavoritesRepository> = {
